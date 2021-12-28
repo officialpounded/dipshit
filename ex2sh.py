@@ -22,5 +22,5 @@ try:
         for i in op:
           ops += "\\x%s" % i
     else:break
-  print bcolors.OKGREEN + "\"" + ops + "\"" + bcolors.ENDC
+  print (bcolors.OKGREEN + "\"" + ops + "\"" + bcolors.ENDC)
 except: pass
